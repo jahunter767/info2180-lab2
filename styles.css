@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+}
+
+header > h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main > .post > h2 {
+    font-size: 32px;
+    color: #48BB78;
+}
+
+main > .post > .post-date-author {
+    color: #718096;
+}
+
+aside > div > h3 {
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+aside > #aboutMe > h3 {
+    color: #000000;
+}
+
+aside > #aboutMe {
+    background-color: #E2E8F0;
+    padding: 100px;
+}
+
+aside > #socialMedia a {
+    color: #4299E1;
+}
+
+aside > #archives a {
+    color: #4299E1;
+}
+
+footer {
+    background-color: #2C5282;
+    color: #FFFFFF
+}
